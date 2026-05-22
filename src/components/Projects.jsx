@@ -6,7 +6,7 @@ import altairaImg from '../assets/altaira.png';
 import energyDistributionImg from '../assets/energy_distribution.png';
 import jetImg from '../assets/jet.png';
 import lovecraftWebImg from '../assets/lovecraftweb.png';
-import gitlogo from '../assets/gitlogo.png';
+import gitlogo from '../assets/gitlogo.jpg';
 
 export default function Projects() {
   return (
