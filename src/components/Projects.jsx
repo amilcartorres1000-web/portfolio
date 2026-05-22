@@ -6,6 +6,7 @@ import altairaImg from '../assets/altaira.png';
 import energyDistributionImg from '../assets/energy_distribution.png';
 import jetImg from '../assets/jet.png';
 import lovecraftWebImg from '../assets/lovecraftweb.png';
+import gitlogo from '../assets/gitlogo.png';
 
 export default function Projects() {
   return (
@@ -19,7 +20,7 @@ export default function Projects() {
             <ExpandableCard
               title="GitHub Projects"
               
-              src={altairaWebImg} alt="Altaira Web"
+              src={gitlogo} alt="gitlogo"
               description="Various Personal Projects"
             >
               <p><strong>Role:</strong> Full-Stack Developer</p>
