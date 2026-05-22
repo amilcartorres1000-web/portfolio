@@ -1,5 +1,11 @@
 
 import { ExpandableCard } from "@/components/ui/expandable-card";
+import altairaWebImg from '../assets/altairaweb.png';
+import netguardiaoImg from '../assets/netguardiao.png';
+import altairaImg from '../assets/altaira.png';
+import energyDistributionImg from '../assets/energy_distribution.png';
+import jetImg from '../assets/jet.png';
+import lovecraftWebImg from '../assets/lovecraftweb.png';
 
 export default function Projects() {
   return (
@@ -12,7 +18,8 @@ export default function Projects() {
           <div className="column is-one-quarter">
             <ExpandableCard
               title="GitHub Projects"
-              src="/gitlogo.jpg"
+              
+              src={altairaWebImg} alt="Altaira Web"
               description="Various Personal Projects"
             >
               <p><strong>Role:</strong> Full-Stack Developer</p>
@@ -28,7 +35,7 @@ export default function Projects() {
           <div className="column is-one-quarter">
             <ExpandableCard
               title="Aura Minerals"
-              src="/netguardiao.png"
+              src={netguardiaoImg}
               description="AI Network Predictive Maintenance"
             >
               <p><strong>Role:</strong> Network & Data Engineering Intern</p>
@@ -45,7 +52,7 @@ export default function Projects() {
           <div className="column is-one-quarter">
             <ExpandableCard
               title="Altaira Glamping"
-              src="/altaira.png"
+              src={altairaImg}
               description="Business Intelligence & Data Pipeline"
             >
               <p><strong>Role:</strong> BI Developer & Data Engineer</p>
@@ -62,7 +69,7 @@ export default function Projects() {
           <div className="column is-one-quarter">
             <ExpandableCard
               title="CERN ATLAS Data: Calorimeter VAE Simulation"
-              src="/energy_distribution.png"
+              src={energyDistributionImg}
               description="Deep Generative Model for Fast Shower Simulation"
             >
               <p><strong>Role:</strong> Machine Learning Developer (HEP Simulation)</p>
@@ -81,7 +88,7 @@ export default function Projects() {
           <div className="column is-one-quarter">
             <ExpandableCard
               title="CERN ATLAS Data: Jet Tagging & Classification"
-              src="/jet.png"
+              src={jetImg}
               description="Machine Learning Pipeline for QCD Substructure Analysis"
             >
               <p><strong>Role:</strong> Machine Learning Developer (HEP Data Analysis)</p>
@@ -100,7 +107,7 @@ export default function Projects() {
             {/* --- Experience: Altaira Glamping - Premium Web Platform --- */}
             <ExpandableCard
               title="Altaira Glamping Website"
-              src="/altairaweb.png"
+              src={altairaWebImg}
               description="High-Performance, Premium UI Web Application"
             >
               <p><strong>Role:</strong> Frontend Engineer & UI Developer</p>
@@ -118,7 +125,7 @@ export default function Projects() {
             {/* --- Experience: Lovecraftian E-Commerce Platform --- */}
             <ExpandableCard
               title="The Necronomicon Bookstore"
-              src="/lovecraftweb.png"
+              src={lovecraftWebImg}
               description="Full-Stack E-Commerce Platform for Niche Literature"
             >
               <p><strong>Role:</strong> Full-Stack Web Developer</p>
